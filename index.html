@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
 </head>
 <body>
-    <!-- <header class="header">
+    <header class="header">
         <nav class="nav">
                 <div class="nav__top">
                     <div class="logo__left">
@@ -18,22 +21,33 @@
                         <p class="logo__text">Комплексное техническое обеспечение мероприятий</p>
                     </div>
                     <div class="logo__right">
-                        <span>Язык:</span>
                         <a href="#"><img src="img/svg/flag-ua.svg" alt="" class="language__btn"></a>
                         <a href="#"><img src="img/svg/flag.svg" alt="" class="language__btn"></a>
                     </div>
                 </div>    
                 <div class="nav__bottom">
+                    <button class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                     <ul class="nav__items">
-                        <li class="nav__item"><a href="" class="nav__link"><img src="img/svg/home.svg" alt=""></a></li>
+                        <li class="nav__item"><a href="" class="nav__link">
+                        <img class="home__img" src="img/svg/home.svg" alt="">
+                                
+                        </a></li>
                         <li class="nav__item"><a href="" class="nav__link">О компании</a></li>
                         <li class="nav__item"><a href="" class="nav__link">Условия аренды</a></li>
                         <li class="nav__item"><a href="" class="nav__link">Портфолио</a></li>
                         <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
+                        <div class="logo__right language__burger">
+                            <a href="#"><img src="img/svg/flag-ua.svg" alt="" class="language__btn"></a>
+                            <a href="#"><img src="img/svg/flag.svg" alt="" class="language__btn"></a>
+                        </div>
                     </ul>
                     <div class="header__contacts">
                         <div class="header__social">
-                            <a href="#"><img class="header__contacts-icon header__contacts-icon-padding " src="img/svg/yt.svg" alt=""></a>
+                            <a href="#"><img class="header__contacts-icon" src="img/svg/yt.svg" alt=""></a>
                             <a href="#"><img class="header__contacts-icon" src="img/svg/inst.svg" alt=""></a>
                             <a href="#"><img class="header__contacts-icon" src="img/svg/phone.svg" alt=""></a>
                         </div>
@@ -44,7 +58,7 @@
                     </div>
                 </div>
         </nav>
-    </header> -->
+    </header>
 <div class="container__background">
             <div class="container">
                 <div class="head__menu">
@@ -134,7 +148,7 @@
     </div>
     <div class="section buy">
         <div class="container">
-            <!-- <div class="buy__title">
+            <div class="buy__title">
                 <h2 class="block__title">Готовые Комплекты</h2>
                 <div class="block__button">
                     <div class="block__btn-arrow">
@@ -143,7 +157,7 @@
                     </div>
                     <button class="block__btn-big"><a href="#!">Смотреть все</a></button>
                 </div>
-            </div> -->
+            </div>
             <div class="goods">
                 <div class="goods__item">
                     <h2 class="goods__item-title">Аренда мультимедиа 
@@ -235,7 +249,7 @@
                 </div>
             </div>
             <div class="offer__section">
-                <!-- <div class="buy__title">
+                <div class="buy__title">
                     <h2 class="block__title">Специальные предложения</h2>
                     <div class="block__button">
                         <div class="block__btn-arrow">
@@ -244,7 +258,7 @@
                         </div>
                         <button class="block__btn-big offer__btn-big"><a href="#!">Смотреть все</a></button>
                     </div>
-                </div> -->
+                </div>
                 <div class="offer">
                     <div class="offer__item">
                         <img src="img/goods/offer1.jpg" alt="" class="offer__img">
@@ -315,7 +329,7 @@
                 <p class="text">Наши специалисты помогут вам подобрать все необходимое для вашего праздника, основываясь  на техническое задание, локацию и ваши пожелания и бюджет. Помимо всего, мы так же можем предложить вам готовые решения, для комплексного обеспечения любой площадки.</p>
                 <p class="text__title">Что вы получаете, выбирая нас:</p>
             </div>    
-            <div class="footer">
+            <div class="footer__menu">
                 <div class="footer__item">
                     <div class="img__background">
                          <img src="img/svg/footer/footer1.svg" alt="" class="footer__img">
@@ -326,7 +340,7 @@
                 <img src="img/svg/arrow.svg" alt="" class="arrow">
                 <div class="footer__item">
                     <div class="img__background">
-                        <img src="img/svg/footer/footer2.svg" alt="" class="footer__img">
+                        <img src="img/svg/footer/footer2.svg" alt="" class="footer__img footer__img-2">
                         <span class="footer__ico-bg"></span>
                     </div>
                     <p class="footer__text-dark">Составление технического задания</p>
@@ -369,11 +383,36 @@
                 <p class="text text__end">Качественное оборудование в отличном состоянии</p>
                 <p class="text text__end">Команду профессионалов которые сделают оперативный монтаж/демонтаж</p>
                 <p class="text text__end">Полную готовность в сроки, указанные непосредственно вами.</p>
-                <p class="text text__end">Полную готовность в сроки, указанные непосредственно вами.HELLO</p>
             </div>  
         </div>
     </section>
- 
-    
+    <footer class="footer">
+        <div class="footer__block">
+            <img class="logo" src="img/logo.png" alt="">
+            <div class="footer__social">
+                <div class="header__contacts">
+                    <div class="header__social">
+                        <a href="#"><img class="header__contacts-icon" src="img/svg/yt.svg" alt=""></a>
+                        <a href="#"><img class="header__contacts-icon" src="img/svg/inst.svg" alt=""></a>
+                        <a href="#"><img class="header__contacts-icon" src="img/svg/phone.svg" alt=""></a>
+                    </div>
+                    <ul class="header__phones">
+                        <li class="header__phone-item footer__header__phone"><a href="tel:+380636303061" class="header__phone">+38 (063) 630 30 61</a></li>
+                        <li class="header__phone-item footer__header__phone"><a href="tel:+380974473661" class="header__phone">+38 (097) 447 36 61</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="developed" style="text-align: center; margin-bottom: 1rem;">Developed by Maksym Pastukh</p>
+        <div class="footer__logo">
+            
+            <a href="#"><img src="img/svg/flag-ua.svg" alt="" class="language__btn language__btn-footer"></a>
+            <a href="#"><img src="img/svg/flag.svg" alt="" class="language__btn language__btn-footer"></a>
+            
+        </div>
+     
+    </footer>
+   
+<script src="main.js"></script> 
 </body>
 </html>
